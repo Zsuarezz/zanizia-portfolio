@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zanizia Suarez — Interactive Portfolio</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <canvas id="canvas3d"></canvas>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Z.S</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#work" class="nav-link">Gallery</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-intro">Zanizia Suarez</div>
+            <h1 class="hero-title">
+                <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+            </h1>
+            <p class="hero-subtitle">Creative Cybersecurity & Automation Portfolio</p>
+            <p class="hero-location">TVCC Student Ambassador • Robotics • Technology • Innovation</p>
+        </div>
+        <div class="shapes-container">
+            <div class="shape cube" id="mainCube"></div>
+            <div class="shape sphere" id="sphere1"></div>
+            <div class="shape sphere" id="sphere2"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="section-content about-grid">
+            <div class="about-media">
+                <div class="about-image-wrapper">
+                    <img src="images/selfie.jpg" alt="Zanizia Suarez" class="about-image">
+                    <div class="section-shapes about-shapes">
+                        <div class="shape cube small"></div>
+                        <div class="shape pyramid small"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-copy">
+                <h2 class="section-title">About</h2>
+                <p class="section-text">
+                    Hi, I'm Zanizia Suarez, a student at Treasure Valley Community College pursuing degrees in Cybersecurity and Industrial Manufacturing & Automation Controls (iMAC). I enjoy combining technology, engineering, and problem-solving to create innovative solutions and explore emerging technologies.
+                </p>
+                <p class="section-text">
+                    As a Student Ambassador at TVCC, I help support students, assist with campus events, and represent the college through leadership and community outreach. This role has strengthened my communication, teamwork, and leadership skills while allowing me to make a positive impact on campus.
+                </p>
+                <p class="section-text">
+                    My interests include cybersecurity, automation, engineering, web development, and robotics. Through hands-on projects and continuous learning, I am building the technical and leadership skills needed to make a meaningful impact in the technology industry.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section work">
+        <div class="section-content">
+            <div class="work-grid">
+                <div class="work-item collage-item">
+                    <div class="gallery-collage">
+                        <div class="collage-card" style="background-image: url('images/robotic-arm.jpg')"></div>
+                        <div class="collage-card" style="background-image: url('images/cybersecurity-workstation.jpg')"></div>
+                        <div class="collage-card large" style="background-image: url('images/cad-workstation.jpg')"></div>
+                    </div>
+                    <div class="work-title">Engineering Studio</div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image" style="background-image: url('images/robotic-arm.jpg')"></div>
+                    <div class="work-title">Robotics</div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image" style="background-image: url('images/cybersecurity-workstation.jpg')"></div>
+                    <div class="work-title">Cybersecurity</div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image" style="background-image: url('images/cad-workstation.jpg')"></div>
+                    <div class="work-title">Automation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="section-content">
+            <div class="section-shapes">
+                <div class="shape sphere tiny"></div>
+                <div class="shape cube tiny"></div>
+            </div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-text">
+                Developing interactive experiences that blend cybersecurity, automation, and engineering. I create polished, modern digital work that feels both technical and artistic, with a focus on immersive visuals and thoughtful problem-solving.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="section-content">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p class="contact-text">Have an idea or want to collaborate? Let's create something memorable together.</p>
+                <a href="mailto:suarezz@student.tvcc.cc" class="contact-link">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Zanizia Suarez. Interactive portfolio experience.</p>
+    </footer>
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
